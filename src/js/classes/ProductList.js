@@ -1,28 +1,19 @@
+import products from "../../../db.json";
 class ProductList {
   constructor(productList = []) {
-    this.apiUrl = "http://localhost:5000/products";
     this.productList = productList;
     this.$productListContent = document.getElementById("productListContent");
   }
 
-  async getProducts() {
-    try {
-      const response = await fetch(this.apiUrl);
-
-      if (!response.ok) {
-        const message = `Status: ${resp.status} - StatusText: ${resp.statusText}`;
-        throw new Error(message);
-      }
-
-      return await response.json();
-    } catch (err) {
-      return err;
-    }
+  getProducts() {
+    return new Promise((resolve) => {
+      setTimeout(() => resolve(products), 1000);
+    });
   }
 
   loadProducts() {
     this.getProducts()
-      .then((products) => {
+      .then(({ products }) => {
         this.productList = [...products];
         this.renderProducts(this.productList);
       })
