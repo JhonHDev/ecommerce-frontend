@@ -1,10 +1,14 @@
 # Front-End Challenge m3
 
-Esta prueba técnica fue desarrollada por Jhon Esteban Herrera
+Prueba técnica desarrollada para M3
+
+## Diseño de escritorio
+
+![](https://i.imgur.com/kw1iIjd.png);
 
 ## Contacto
 
-#### `Mi Email` : estebanhz9919@gmail.com
+### `Mi Email` : estebanhz9919@gmail.com
 
 ### `Mi Linkedin` : [Linkedin](https://www.linkedin.com/in/jhon-esteban-herrera/)
 
