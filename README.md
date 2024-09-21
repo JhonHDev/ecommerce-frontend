@@ -8,8 +8,6 @@
 
 ## Contacto
 
-### `Mi Email` : estebanhz9919@gmail.com
-
 ### `Mi Linkedin` : [Linkedin](https://www.linkedin.com/in/jhon-esteban-herrera/)
 
 ## Para usar el proyecto:
