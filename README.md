@@ -1,6 +1,6 @@
-# Front-End Challenge m3
+# Ecommerce Frontend
 
-Prueba técnica desarrollada para M3
+
 
 ## Diseño de escritorio
 
